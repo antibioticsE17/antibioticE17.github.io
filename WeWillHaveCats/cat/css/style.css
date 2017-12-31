@@ -1,0 +1,38 @@
+/* CSS: Cascading Style Sheet */ 
+#centre
+{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	background: indianred;
+	border-radius: 50%;  
+}
+
+#bobImg {
+	margin: auto;
+	width: 600px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+
+#bg {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+	background-image: url('../img/Bob/bg/bigbg.png');
+	background-repeat: no-repeat;
+	background-color: darkgrey;
+	width: 1440px;
+	height: 1400px;
+	background-size: 100%;
+}
+
+#top {
+	width: 100%;
+	height: 600px;
+	background-image: url('../img/Bob/bg/cat1.png'), url('../img/Bob/bg/cat2.png'), url('../img/Bob/bg/cat3.png'), url('../img/Bob/bg/cat4.png');
+	background-repeat: no-repeat;
+}
